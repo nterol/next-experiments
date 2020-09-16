@@ -1,0 +1,29 @@
+{
+    "presets": ["next/babel"],
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "root": ["./"],
+          "alias": {
+            "@components": "./src/components",
+            "@atoms": "./src/components/atoms",
+            "@molecules": "./src/components/molecules",
+            "@organisms": "./src/components/organisms",
+            "@templates": "./src/components/templates",
+            "@screens": "./src/screens",
+            "@hooks": "./src/hooks",
+            "@services": "./src/services",
+            "@constants": "./src/constants",
+            "@context": "./src/context",
+            "@queries": "./src/queries",
+            "@data": "./src/data",
+            "@typeDefs": "./src/types",
+            "@generated": "./src/generated",
+            "@utils": "./src/utils",
+            "@public": "./public"
+          }
+        }
+      ]
+    ]
+  } 
